@@ -37,6 +37,7 @@ def get_info(ip):
 if __name__ == '__main__':
   if len(sys.argv) == 1:
     print('You need to provide me with an ip, mate.')
-  print(main(sys.argv[1]))
+  else:
+    print(main(sys.argv[1]))
 
 
